@@ -235,7 +235,7 @@ td, th {
     background: linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0.7) 0%, /* Dark at the top */
-        rgba(0, 0, 0, 0.3) 80%, /* Less dark in the middle */
+        rgba(0, 0, 0, 0.3) 60%, /* Less dark in the middle */
         rgba(0, 0, 0, 0) 100% /* Transparent at the bottom */
     );
     z-index: -1;
