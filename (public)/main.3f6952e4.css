@@ -223,8 +223,7 @@ td, th {
 
 .navbar {
     position: relative;
-    overflow: hidden;
-  }
+}
   
 .nav-blur-overlay {
     position: absolute;
@@ -240,10 +239,6 @@ td, th {
     );
     z-index: -1;
 }
-  
-  
-  
-
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
@@ -4330,6 +4325,7 @@ tbody.collapse.in {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 0
+    z-index: 10; /* Ensure this value is higher than any other z-index values of overlapping elements */
 }
 
 .navbar-toggle:focus {
